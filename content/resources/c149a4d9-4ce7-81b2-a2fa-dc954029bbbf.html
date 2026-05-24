@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 preguntas interactivas</title>
+  <style>
+    :root{
+      --azul:#429DCF;
+      --azul-claro:#F2F9FD;
+      --borde:#D8E8F2;
+      --texto:#234253;
+      --verde:#237A46;
+      --rojo:#B33B3B;
+      --amarillo:#8A6A00;
+    }
+
+    *{box-sizing:border-box;}
+
+    body{
+      margin:0;
+      padding:24px;
+      font-family:Arial, Helvetica, sans-serif;
+      background:#F7FBFE;
+      color:var(--texto);
+    }
+
+    .contenedor{
+      max-width:850px;
+      margin:0 auto;
+      background:#fff;
+      border-radius:18px;
+      border:1px solid #E8F1F6;
+      box-shadow:0 8px 24px rgba(30, 80, 110, 0.10);
+      padding:24px;
+    }
+
+    .pregunta{
+      border:1px solid var(--borde);
+      border-radius:16px;
+      padding:18px;
+      margin-bottom:18px;
+      background:#fff;
+    }
+
+    .pregunta h3{
+      margin:0 0 10px;
+      color:#1D4D67;
+      font-size:20px;
+    }
+
+    .enunciado{
+      margin:0 0 14px;
+      line-height:1.5;
+      font-size:16px;
+    }
+
+    .visual{
+      background:var(--azul-claro);
+      border:1px solid #DCECF6;
+      border-radius:14px;
+      padding:14px;
+      margin-bottom:12px;
+    }
+
+    .fila{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:12px;
+    }
+
+    .bloque{
+      background:#fff;
+      border:1px solid #D9E6EE;
+      border-radius:12px;
+      padding:12px 10px;
+      min-width:120px;
+      text-align:center;
+      font-size:14px;
+    }
+
+    .icono{
+      display:block;
+      font-size:28px;
+      margin-bottom:6px;
+    }
+
+    .secuencia{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
+      gap:10px;
+    }
+
+    .numero{
+      width:48px;
+      height:48px;
+      border-radius:12px;
+      background:#fff;
+      border:1px solid #D7E5EE;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:bold;
+      font-size:20px;
+      color:#1E5470;
+    }
+
+    .interrogacion{
+      font-size:34px;
+      font-weight:bold;
+      color:#355A71;
+      width:40px;
+      text-align:center;
+    }
+
+    .opciones{
+      display:grid;
+      gap:10px;
+    }
+
+    .opcion{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:11px 12px;
+      border:1.4px solid #DCE7EF;
+      border-radius:12px;
+      background:#fff;
+      cursor:pointer;
+      transition:0.2s;
+    }
+
+    .opcion:hover{
+      border-color:var(--azul);
+      background:#F8FCFF;
+    }
+
+    .opcion input{
+      accent-color:var(--azul);
+      transform:scale(1.08);
+      cursor:pointer;
+    }
+
+    .emoji{
+      width:30px;
+      text-align:center;
+      font-size:22px;
+      flex-shrink:0;
+    }
+
+    .texto{
+      flex:1;
+      line-height:1.4;
+    }
+
+    .retro{
+      min-height:18px;
+      margin-top:10px;
+      font-size:14px;
+      font-weight:bold;
+    }
+
+    .acciones{
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:20px;
+    }
+
+    button{
+      border:none;
+      border-radius:12px;
+      padding:12px 20px;
+      font-size:16px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+
+    .btn1{
+      background:var(--azul);
+      color:#fff;
+    }
+
+    .btn2{
+      background:#EEF5F8;
+      color:#35576B;
+    }
+
+    #resultado{
+      display:none;
+      margin-top:18px;
+      padding:15px;
+      border-radius:14px;
+      text-align:center;
+      font-weight:bold;
+      font-size:17px;
+    }
+
+    .alto{ background:#E7F7EC; color:var(--verde); border:1px solid #BFE3CB; }
+    .medio{ background:#FFF7DF; color:var(--amarillo); border:1px solid #EEDFA0; }
+    .bajo{ background:#FDEBEA; color:var(--rojo); border:1px solid #EEC1C1; }
+
+    @media(max-width:700px){
+      body{padding:12px;}
+      .contenedor{padding:14px;}
+      .pregunta h3{font-size:18px;}
+      .bloque{min-width:95px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <form id="quiz">
+
+      <div class="pregunta">
+        <h3>1. Abstracción</h3>
+        <p class="enunciado">Si quieres explicarle a alguien cómo llegar a la biblioteca del colegio, ¿qué información sería la más importante?</p>
+        <div class="visual">
+          <div class="fila">
+            <div class="bloque"><span class="icono">🏫</span>Lugar</div>
+            <div class="bloque"><span class="icono">➡️</span>Dirección</div>
+            <div class="bloque"><span class="icono">🎯</span>Dato importante</div>
+          </div>
+        </div>
+        <div class="opciones">
+          <label class="opcion">
+            <input type="radio" name="p1" value="a">
+            <div class="emoji">🎨</div>
+            <div class="texto">El color favorito de quien va a ir</div>
+          </label>
+          <label class="opcion">
+            <input type="radio" name="p1" value="b">
+            <div class="emoji">🧭</div>
+            <div class="texto">Las indicaciones principales para encontrarla</div>
+          </label>
+          <label class="opcion">
+            <input type="radio" name="p1" value="c">
+            <div class="emoji">🍔</div>
+            <div class="texto">Lo que comió esa persona en el recreo</div>
+          </label>
+        </div>
+        <div class="retro" id="r1"></div>
+      </div>
+
+      <div class="pregunta">
+        <h3>2. Patrones</h3>
+        <p class="enunciado">Observa la secuencia numérica. ¿Qué número continúa?</p>
+        <div class="visual">
+          <div class="secuencia">
+            <div class="numero">2</div>
+            <div class="numero">4</div>
+            <div class="numero">6</div>
+            <div class="numero">8</div>
+            <div class="interrogacion">?</div>
+          </div>
+        </div>
+        <div class="opciones">
+          <label class="opcion">
+            <input type="radio" name="p2" value="a">
+            <div class="emoji">🔢</div>
+            <div class="texto">9</div>
+          </label>
+          <label class="opcion">
+            <input type="radio" name="p2" value="b">
+            <div class="emoji">🔢</div>
+            <div class="texto">10</div>
+          </label>
+          <label class="opcion">
+            <input type="radio" name="p2" value="c">
+            <div class="emoji">🔢</div>
+            <div class="texto">12</div>
+          </label>
+        </div>
+        <div class="retro" id="r2"></div>
+      </div>
+
+      <div class="pregunta">
+        <h3>3. Algoritmos y descomposición</h3>
+        <p class="enunciado">Si una persona quiere lavarse las manos correctamente, ¿cuál opción muestra mejor una secuencia ordenada de pasos?</p>
+        <div class="visual">
+          <div class="fila">
+            <div class="bloque"><span class="icono">🚰</span>Agua</div>
+            <div class="bloque"><span class="icono">🧼</span>Jabón</div>
+            <div class="bloque"><span class="icono">👐</span>Frotar</div>
+            <div class="bloque"><span class="icono">🧻</span>Secar</div>
+          </div>
+        </div>
+        <div class="opciones">
+          <label class="opcion">
+            <input type="radio" name="p3" value="a">
+            <div class="emoji">✅</div>
+            <div class="texto">Mojar las manos, aplicar jabón, frotar, enjuagar y secar</div>
+          </label>
+          <label class="opcion">
+            <input type="radio" name="p3" value="b">
+            <div class="emoji">❌</div>
+            <div class="texto">Secar las manos, poner jabón y luego buscar agua</div>
+          </label>
+          <label class="opcion">
+            <input type="radio" name="p3" value="c">
+            <div class="emoji">❓</div>
+            <div class="texto">Hacer cualquier paso sin seguir un orden</div>
+          </label>
+        </div>
+        <div class="retro" id="r3"></div>
+      </div>
+
+      <div class="acciones">
+        <button type="button" class="btn1" onclick="calificar()">Calificar</button>
+        <button type="button" class="btn2" onclick="reiniciar()">Reiniciar</button>
+      </div>
+
+      <div id="resultado"></div>
+    </form>
+  </div>
+
+  <script>
+    const respuestas = {
+      p1: "b",
+      p2: "b",
+      p3: "a"
+    };
+
+    const correctas = {
+      p1: "✅ Correcto: la abstracción se centra en la información importante.",
+      p2: "✅ Correcto: el patrón va de 2 en 2, por eso sigue 10.",
+      p3: "✅ Correcto: un algoritmo sigue pasos ordenados."
+    };
+
+    const incorrectas = {
+      p1: "❌ Incorrecto: aquí debes escoger la información esencial para llegar a la biblioteca.",
+      p2: "❌ Incorrecto: la secuencia aumenta de 2 en 2.",
+      p3: "❌ Incorrecto: la mejor respuesta es la que presenta pasos ordenados."
+    };
+
+    function calificar(){
+      let puntaje = 0;
+
+      for(let i = 1; i <= 3; i++){
+        const nombre = "p" + i;
+        const seleccion = document.querySelector(`input[name="${nombre}"]:checked`);
+        const retro = document.getElementById("r" + i);
+
+        if(!seleccion){
+          retro.textContent = "⚠️ Debes seleccionar una opción.";
+          retro.style.color = "#8A6A00";
+          continue;
+        }
+
+        if(seleccion.value === respuestas[nombre]){
+          puntaje++;
+          retro.textContent = correctas[nombre];
+          retro.style.color = "#237A46";
+        }else{
+          retro.textContent = incorrectas[nombre];
+          retro.style.color = "#B33B3B";
+        }
+      }
+
+      const resultado = document.getElementById("resultado");
+      resultado.style.display = "block";
+      resultado.className = "";
+
+      if(puntaje === 3){
+        resultado.classList.add("alto");
+        resultado.textContent = `Obtuviste ${puntaje}/3. ¡Muy bien!`;
+      }else if(puntaje === 2){
+        resultado.classList.add("medio");
+        resultado.textContent = `Obtuviste ${puntaje}/3. Vas bien.`;
+      }else{
+        resultado.classList.add("bajo");
+        resultado.textContent = `Obtuviste ${puntaje}/3. Necesitas repasar un poco más.`;
+      }
+
+      resultado.scrollIntoView({behavior:"smooth", block:"center"});
+    }
+
+    function reiniciar(){
+      document.getElementById("quiz").reset();
+
+      const resultado = document.getElementById("resultado");
+      resultado.style.display = "none";
+      resultado.textContent = "";
+      resultado.className = "";
+
+      for(let i = 1; i <= 3; i++){
+        document.getElementById("r" + i).textContent = "";
+      }
+
+      window.scrollTo({top:0, behavior:"smooth"});
+    }
+  </script>
+</body>
+</html>
