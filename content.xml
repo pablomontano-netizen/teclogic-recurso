@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260524020328M7FBGV</value>
+    <value>20260524021032H5Q1R5</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>202605240203285YDXUH</value>
+    <value>202605240210327U7RCX</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -1252,9 +1252,9 @@ Algoritmos</blockName>
 <p>1 Abrir el agua.<br />2 Ponerse jabón.<br />3 Frotar las manos.<br />4 Enjuagarse.<br />5 Cerrar el agua.<br />Si cambias el orden como secarte antes de mojarte, ¡el algoritmo no funciona.</p>
 <p>Video de apoyo:</p>
 <p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/U3CGMyjzlvM?si=GwJ0tu8F1U7Q5FRI" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"></p>
+<p style="text-align: center;"><br /></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779397831657-ipg00setm","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"><strong>Algoritmos   </strong>  </p>\n<p>Un algoritmo es la serie de acciones e instrucciones organizadas de manera lógica y ordenada se trata de una lista de pasos finitos que permiten cumplir objetivos rutinarios como prepararse para la escuela o hacer empanadas, cuando una tarea es más compleja surgen más opciones de pasos a seguir por lo que se debe elegir el algoritmo que cumpla el objetivo de la forma más rápida y económica buscando siempre la eficiencia (Ministerio de Educación, 2023, p. 11).</p>\n<p style=\"text-align: center;\"><img src=\"{{context_path}}/content/resources/5.jpg\" width=\"236\" height=\"208\" alt=\"\" /><br /></p>\n<p><strong>Ejemplo:</strong></p>\n<p>Los pasos para lavarse las manos:</p>\n<p>1 Abrir el agua.<br />2 Ponerse jabón.<br />3 Frotar las manos.<br />4 Enjuagarse.<br />5 Cerrar el agua.<br />Si cambias el orden como secarte antes de mojarte, ¡el algoritmo no funciona.</p>\n<p>Video de apoyo:</p>\n<p style=\"text-align: center;\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/U3CGMyjzlvM?si=GwJ0tu8F1U7Q5FRI\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p style=\"text-align: center;\"></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779397831657-ipg00setm","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"><strong>Algoritmos   </strong>  </p>\n<p>Un algoritmo es la serie de acciones e instrucciones organizadas de manera lógica y ordenada se trata de una lista de pasos finitos que permiten cumplir objetivos rutinarios como prepararse para la escuela o hacer empanadas, cuando una tarea es más compleja surgen más opciones de pasos a seguir por lo que se debe elegir el algoritmo que cumpla el objetivo de la forma más rápida y económica buscando siempre la eficiencia (Ministerio de Educación, 2023, p. 11).</p>\n<p style=\"text-align: center;\"><img src=\"{{context_path}}/content/resources/5.jpg\" width=\"236\" height=\"208\" alt=\"\" /><br /></p>\n<p><strong>Ejemplo:</strong></p>\n<p>Los pasos para lavarse las manos:</p>\n<p>1 Abrir el agua.<br />2 Ponerse jabón.<br />3 Frotar las manos.<br />4 Enjuagarse.<br />5 Cerrar el agua.<br />Si cambias el orden como secarte antes de mojarte, ¡el algoritmo no funciona.</p>\n<p>Video de apoyo:</p>\n<p style=\"text-align: center;\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/U3CGMyjzlvM?si=GwJ0tu8F1U7Q5FRI\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p style=\"text-align: center;\"><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1440,7 +1440,7 @@ Algoritmos</blockName>
           <odeIdeviceId>idevice-1779423348167-i6g24t59z</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
-    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/d.html" data-mce-html="true"></iframe><a href="contenido-4.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="retroalimentacion.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/d.html" data-mce-html="true"></iframe><a href="contenido4.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="retroalimentacion.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1779423348167-i6g24t59z","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/d.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mpja85ac-9wdu1nk9e\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85ag-gnh3i02c0\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
@@ -1504,7 +1504,7 @@ Algoritmos</blockName>
       <odeBlockId>block-1779426578617-h5ldi1u81</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
-      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureOrder>0</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
           <key>visibility</key>
@@ -1534,7 +1534,7 @@ Algoritmos</blockName>
           <odeIdeviceId>idevice-1779426578613-6sn3qefbe</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
-    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/p.html" data-mce-html="true"></iframe><a href="actividad-evaluativa.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="creditos-.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/p.html" data-mce-html="true"></iframe><a href="actividadevaluativa.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="creditos-.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426578613-6sn3qefbe","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/p.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mpja85ae-tsm49moal\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85ah-mvo4zdkst\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
