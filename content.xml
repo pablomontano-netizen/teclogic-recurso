@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>202605240003354Y6Q6F</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260524000335JG1YE5</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>TECLOGIC</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1779597202211</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mpja859v-wq1lliozv</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Portada</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Portada</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Portada</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja859v-wq1lliozv</odePageId>
+      <odeBlockId>block-1777320568552-t92ischmc</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja859v-wq1lliozv</odePageId>
+          <odeBlockId>block-1777320568552-t92ischmc</odeBlockId>
+          <odeIdeviceId>idevice-1777320568549-l9qgafi9e</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>                                                        <img src="{{context_path}}/content/resources/0.png" width="126" height="126" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="text-align: center;"><em><strong>UNIVERSIDAD NACIONAL DE LOJA</strong></em></p>
+<p style="text-align: center;"><em><strong>                 FACULTAD DE LA EDUCACIÓN, EL ARTE Y LA COMUNICACIÓN </strong></em></p>
+<p style="text-align: center;"><em><strong>              CARRERA DE PEDAGOGÍA DE LAS CIENCIAS EXPERIMENTALES INFORMÁTICA</strong></em></p>
+<p style="text-align: center;">Autores:</p>
+<p><strong> Joselin Granda</strong></p>
+<p><strong> Pablo Montaño</strong></p>
+<p><strong> Anahi Ruiz</strong></p>
+<p><strong> Anthony Cuenca</strong></p>
+<h5 style="text-align: center;">Nivel Educativo: 7mo E.G.B.</h5>
+<p><strong>Propósito General: </strong></p>
+<p>Este recurso busca fortalecer la dificultad presente con los estudiantes de séptimo grado de la Unidad Educativa Particular Cordillera sobre las habilidades de pensamiento computacional: Abstracción, Descomposición, Patrones y Algoritmos, y su dificultad para resolver problemas sobre razonamiento lógico y abstracto.                                             <img src="{{context_path}}/content/resources/1.png" width="1366" height="745" />    </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777320568549-l9qgafi9e","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>                                                        <img src=\"{{context_path}}/content/resources/0.png\" width=\"126\" height=\"126\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>\n<p style=\"text-align: center;\"><em><strong>UNIVERSIDAD NACIONAL DE LOJA</strong></em></p>\n<p style=\"text-align: center;\"><em><strong>                 FACULTAD DE LA EDUCACIÓN, EL ARTE Y LA COMUNICACIÓN </strong></em></p>\n<p style=\"text-align: center;\"><em><strong>              CARRERA DE PEDAGOGÍA DE LAS CIENCIAS EXPERIMENTALES INFORMÁTICA</strong></em></p>\n<p style=\"text-align: center;\">Autores:</p>\n<p><strong> Joselin Granda</strong></p>\n<p><strong> Pablo Montaño</strong></p>\n<p><strong> Anahi Ruiz</strong></p>\n<p><strong> Anthony Cuenca</strong></p>\n<h5 style=\"text-align: center;\">Nivel Educativo: 7mo E.G.B.</h5>\n<p><strong>Propósito General: </strong></p>\n<p>Este recurso busca fortalecer la dificultad presente con los estudiantes de séptimo grado de la Unidad Educativa Particular Cordillera sobre las habilidades de pensamiento computacional: Abstracción, Descomposición, Patrones y Algoritmos, y su dificultad para resolver problemas sobre razonamiento lógico y abstracto.                                             <img src=\"{{context_path}}/content/resources/1.png\" width=\"1366\" height=\"745\" />    </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a1-mi5nmvofd</odePageId>
+  <odeParentPageId>page-mpja859v-wq1lliozv</odeParentPageId>
+  <pageName>Introducción</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a1-mi5nmvofd</odePageId>
+      <odeBlockId>block-1779307543668-p7qdszq29</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a1-mi5nmvofd</odePageId>
+          <odeBlockId>block-1779307543668-p7qdszq29</odeBlockId>
+          <odeIdeviceId>idevice-1779307543660-fc35td18j</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p></p>
+<p>Hola, En este sitio aprenderás a resolver problemas como usando el Pensamiento Computacional a la par que sea entretenido y educativo.</p>
+<p>Para lograrlo, entrenarás cuatro habilidades clave:</p>
+<p>Descomposición: Dividir un problema en partes pequeñas.</p>
+<p><br />Patrones: Buscar repeticiones o secretos.<br />Abstracción: Concentrarte solo en lo importante                  .<img src="{{context_path}}/content/resources/2_1.png" width="154" height="114" alt="" /><br />Algoritmos: Seguir pasos ordenados.<br />Prepárate para divertirte con retos y actividades interactivas ¿Empezamos?</p>
+<p style="text-align: right;"><a href="objetivo.html" title=""><img src="{{context_path}}/content/resources/t.png" width="158" height="86" alt="" style="float: left;" /><img src="{{context_path}}/content/resources/b.png" width="159" height="87" alt="" /> </a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779307543660-fc35td18j","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p></p>\n<p>Hola, En este sitio aprenderás a resolver problemas como usando el Pensamiento Computacional a la par que sea entretenido y educativo.</p>\n<p>Para lograrlo, entrenarás cuatro habilidades clave:</p>\n<p>Descomposición: Dividir un problema en partes pequeñas.</p>\n<p><br />Patrones: Buscar repeticiones o secretos.<br />Abstracción: Concentrarte solo en lo importante                  .<img src=\"{{context_path}}/content/resources/2_1.png\" width=\"154\" height=\"114\" alt=\"\" /><br />Algoritmos: Seguir pasos ordenados.<br />Prepárate para divertirte con retos y actividades interactivas ¿Empezamos?</p>\n<p style=\"text-align: right;\"><a href=\"exe-node:page-mpja85a2-nyjcr7l0d\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"158\" height=\"86\" alt=\"\" style=\"float: left;\" /><img src=\"{{context_path}}/content/resources/b.png\" width=\"159\" height=\"87\" alt=\"\" /> </a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a2-nyjcr7l0d</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Objetivo</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Objetivo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Objetivo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a2-nyjcr7l0d</odePageId>
+      <odeBlockId>block-1777318443504-7zv1kvtjc</odeBlockId>
+      <blockName>OBJETIVO DE APRENDIZAJE</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a2-nyjcr7l0d</odePageId>
+          <odeBlockId>block-1777318443504-7zv1kvtjc</odeBlockId>
+          <odeIdeviceId>idevice-1777318443497-qzpu7maov</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <h4 style="text-align: center;">Objetivo</h4>
+<p>OG.TD.1. Aplicar habilidades digitales y de pensamiento lógico para resolver desafíos y retos de manera creativa, haciendo uso de recursos tecnológicos de forma segura y responsable, para desarrollar estrategias de resolución de problemas a través del uso adecuado de herramientas digitales, demostrando capacidad de análisis, creatividad y pensamiento crítico.</p>
+<p><strong>DESTREZA</strong></p>
+<p>Innovar en soluciones tecnológicas aplicando programación y razonamiento lógico-abstracto en contextos educativos. (CC) (CM) (CD) (CS) (ES)</p>
+<p>Ref. (TD.3.3.1.)</p>
+<p><strong>CRITERIO DE EVALUACIÓN</strong></p>
+<p>CE.TD.3.3. Desarrolla proyectos tecnológicos innovadores en entornos de programación por bloques, integrando razonamiento lógico, creatividad y el uso de inteligencia artificial aplicada a la educación, demostrando autonomía, resolución de problemas y pensamiento crítico.</p>
+<p></p>
+<p><a href="../index.html" title=""><img src="{{context_path}}/content/resources/t.png" width="181" height="99" alt="" /></a> <a href="conocimientos-previos-.html" title=""><img src="{{context_path}}/content/resources/b.png" width="173" height="95" alt="" style="float: right;" /></a></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777318443497-qzpu7maov","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\">Objetivo</h4>\n<p>OG.TD.1. Aplicar habilidades digitales y de pensamiento lógico para resolver desafíos y retos de manera creativa, haciendo uso de recursos tecnológicos de forma segura y responsable, para desarrollar estrategias de resolución de problemas a través del uso adecuado de herramientas digitales, demostrando capacidad de análisis, creatividad y pensamiento crítico.</p>\n<p><strong>DESTREZA</strong></p>\n<p>Innovar en soluciones tecnológicas aplicando programación y razonamiento lógico-abstracto en contextos educativos. (CC) (CM) (CD) (CS) (ES)</p>\n<p>Ref. (TD.3.3.1.)</p>\n<p><strong>CRITERIO DE EVALUACIÓN</strong></p>\n<p>CE.TD.3.3. Desarrolla proyectos tecnológicos innovadores en entornos de programación por bloques, integrando razonamiento lógico, creatividad y el uso de inteligencia artificial aplicada a la educación, demostrando autonomía, resolución de problemas y pensamiento crítico.</p>\n<p></p>\n<p><a href=\"exe-node:page-mpja859v-wq1lliozv\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"181\" height=\"99\" alt=\"\" /></a> <a href=\"exe-node:page-mpja85a4-uxq2almyk\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"173\" height=\"95\" alt=\"\" style=\"float: right;\" /></a></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a4-uxq2almyk</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Conocimientos_previos</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Conocimientos_previos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Conocimientos previos </value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Conocimientos_previos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a4-uxq2almyk</odePageId>
+      <odeBlockId>block-1779426765356-d8x4x7y4e</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a4-uxq2almyk</odePageId>
+          <odeBlockId>block-1779426765356-d8x4x7y4e</odeBlockId>
+          <odeIdeviceId>idevice-1779426765337-x6pi1xllf</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/ts.html" data-mce-html="true"></iframe></p>
+<p><a href="objetivo.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="menu.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426765337-x6pi1xllf","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/ts.html\" data-mce-html=\"true\"></iframe></p>\n<p><a href=\"exe-node:page-mpja85a2-nyjcr7l0d\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85a5-7wmy2ahje\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a5-7wmy2ahje</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Menú</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Menú</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Menú</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a5-7wmy2ahje</odePageId>
+      <odeBlockId>block-1777320841320-nejlgbxqk</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a5-7wmy2ahje</odePageId>
+          <odeBlockId>block-1777320841320-nejlgbxqk</odeBlockId>
+          <odeIdeviceId>idevice-1777320841316-w84y0styn</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Contenidos que vamos  a tratar </p>
+<p><a href="contenido1.html" title=""><img src="{{context_path}}/content/resources/g.png" width="255" height="139" alt="" /></a>                   </p>
+<p><a href="contenido2.html" title=""><img src="{{context_path}}/content/resources/x.png" width="261" height="142" alt="" /></a> <a href="contenido3.html" title=""></a></p>
+<p><a href="contenido3.html" title=""><img src="{{context_path}}/content/resources/8.png" width="254" height="139" alt="" /></a>                         </p>
+<p><a href="contenido4.html" title=""><img src="{{context_path}}/content/resources/9.png" width="264" height="144" alt="" /></a></p>
+<p>        </p>
+<p>                             </p>
+<p>    </p>
+<p><br /></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777320841316-w84y0styn","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Contenidos que vamos  a tratar </p>\n<p><a href=\"exe-node:page-mpja85a6-mzx7yddjj\" title=\"\"><img src=\"{{context_path}}/content/resources/g.png\" width=\"255\" height=\"139\" alt=\"\" /></a>                   </p>\n<p><a href=\"exe-node:page-mpja85a8-qkvc8wvhr\" title=\"\"><img src=\"{{context_path}}/content/resources/x.png\" width=\"261\" height=\"142\" alt=\"\" /></a> <a href=\"exe-node:page-mpja85aa-7e4vl8a87\" title=\"\"></a></p>\n<p><a href=\"exe-node:page-mpja85aa-7e4vl8a87\" title=\"\"><img src=\"{{context_path}}/content/resources/8.png\" width=\"254\" height=\"139\" alt=\"\" /></a>                         </p>\n<p><a href=\"exe-node:page-mpja85ac-9wdu1nk9e\" title=\"\"><img src=\"{{context_path}}/content/resources/9.png\" width=\"264\" height=\"144\" alt=\"\" /></a></p>\n<p>        </p>\n<p>                             </p>\n<p>    </p>\n<p><br /></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a6-mzx7yddjj</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Contenido1</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido1</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido 1</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Contenido1</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a6-mzx7yddjj</odePageId>
+      <odeBlockId>block-1779397143809-v7zffphiy</odeBlockId>
+      <blockName>Descomposición</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a6-mzx7yddjj</odePageId>
+          <odeBlockId>block-1779397143809-v7zffphiy</odeBlockId>
+          <odeIdeviceId>idevice-1779397143806-xsyklmm9j</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: center;"><strong>Descomposición</strong></p>
+<p>La descomposición es un proceso cognitivo esencial que consiste en segmentar un problema, objeto o tarea compleja en partes más pequeñas, concretas y manejables. Esta técnica no solo es la base del pensamiento computacional sino que es una herramienta vital para la vida cotidiana y el aprendizaje (Ministerio de Educación, 2023, p. 10).</p>
+<p style="text-align: center;"><img src="{{context_path}}/content/resources/a.png" width="191" height="191" alt="" /></p>
+<p><strong>Ejemplo:</strong></p>
+<p>Si quieres armar un castillo de piezas de bloque, primero separas las piezas por color, luego armas la base, después las paredes y al final las torres. En lugar de hacer todo a la vez, vas pieza por pieza.</p>
+<p>Video apoyo:</p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/vmLoagQ-HEs?si=aWVVta1sv15WZK21" allowfullscreen="allowfullscreen"></iframe></p>
+<p><br /><br /></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779397143806-xsyklmm9j","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"><strong>Descomposición</strong></p>\n<p>La descomposición es un proceso cognitivo esencial que consiste en segmentar un problema, objeto o tarea compleja en partes más pequeñas, concretas y manejables. Esta técnica no solo es la base del pensamiento computacional sino que es una herramienta vital para la vida cotidiana y el aprendizaje (Ministerio de Educación, 2023, p. 10).</p>\n<p style=\"text-align: center;\"><img src=\"{{context_path}}/content/resources/a.png\" width=\"191\" height=\"191\" alt=\"\" /></p>\n<p><strong>Ejemplo:</strong></p>\n<p>Si quieres armar un castillo de piezas de bloque, primero separas las piezas por color, luego armas la base, después las paredes y al final las torres. En lugar de hacer todo a la vez, vas pieza por pieza.</p>\n<p>Video apoyo:</p>\n<p style=\"text-align: center;\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/vmLoagQ-HEs?si=aWVVta1sv15WZK21\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><br /><br /></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a7-2adlci40p</odePageId>
+  <odeParentPageId>page-mpja85a6-mzx7yddjj</odeParentPageId>
+  <pageName>Actividad1</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad1</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad 1</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Actividad1</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a7-2adlci40p</odePageId>
+      <odeBlockId>block-1779403598511-i5zggco62</odeBlockId>
+      <blockName>Actividad 1</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a7-2adlci40p</odePageId>
+          <odeBlockId>block-1779403598511-i5zggco62</odeBlockId>
+          <odeIdeviceId>idevice-1779403598505-bomaybh85</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/1..html" data-mce-html="true"></iframe><br /><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779403598505-bomaybh85","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/1..html\" data-mce-html=\"true\"></iframe><br /><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a8-qkvc8wvhr</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Contenido2</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido2</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido 2</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Contenido2</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a8-qkvc8wvhr</odePageId>
+      <odeBlockId>block-1779397518131-hi3x1p99c</odeBlockId>
+      <blockName>1.       Reconocimiento
+de patrones</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a8-qkvc8wvhr</odePageId>
+          <odeBlockId>block-1779397518131-hi3x1p99c</odeBlockId>
+          <odeIdeviceId>idevice-1779397518129-lr1e0l7n1</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: center;"> <strong> Reconocimiento de patrones</strong></p>
+<p>       Es segmentar el problema en partes pequeñas para que sea más concreto y manejable al dividirlo y verificar cada parte podemos detectar patrones y relaciones que nos permitan usar soluciones ya conocidas, así evitamos analizar cada detalle desde cero y logramos tomar decisiones de manera más rápida y efectiva (Ministerio de Educación, 2023, p. 10).</p>
+<p style="text-align: center;"><img src="{{context_path}}/content/resources/9_1.png" width="300" height="129" alt="" /></p>
+<p>      <strong>Ejemplo:</strong></p>
+<p> Si estás jugando a seguir la secuencia y ves: Círculo, Cuadrado, Círculo, Cuadrado... tú ya sabes que el siguiente es un Círculo. Identificaste el patrón y ganaste el juego.</p>
+<p>Video de apoyo:</p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/9MVVwaE85-8?si=hX4AneTQZtNzG3vC" allowfullscreen="allowfullscreen"></iframe></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779397518129-lr1e0l7n1","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"> <strong> Reconocimiento de patrones</strong></p>\n<p>       Es segmentar el problema en partes pequeñas para que sea más concreto y manejable al dividirlo y verificar cada parte podemos detectar patrones y relaciones que nos permitan usar soluciones ya conocidas, así evitamos analizar cada detalle desde cero y logramos tomar decisiones de manera más rápida y efectiva (Ministerio de Educación, 2023, p. 10).</p>\n<p style=\"text-align: center;\"><img src=\"{{context_path}}/content/resources/9_1.png\" width=\"300\" height=\"129\" alt=\"\" /></p>\n<p>      <strong>Ejemplo:</strong></p>\n<p> Si estás jugando a seguir la secuencia y ves: Círculo, Cuadrado, Círculo, Cuadrado... tú ya sabes que el siguiente es un Círculo. Identificaste el patrón y ganaste el juego.</p>\n<p>Video de apoyo:</p>\n<p style=\"text-align: center;\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/9MVVwaE85-8?si=hX4AneTQZtNzG3vC\" allowfullscreen=\"allowfullscreen\"></iframe></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85a9-t0wg4rulp</odePageId>
+  <odeParentPageId>page-mpja85a8-qkvc8wvhr</odeParentPageId>
+  <pageName>Actividad2</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad2</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad 2</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Actividad2</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85a9-t0wg4rulp</odePageId>
+      <odeBlockId>block-1779404756597-dgdq34inw</odeBlockId>
+      <blockName>Actividad</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85a9-t0wg4rulp</odePageId>
+          <odeBlockId>block-1779404756597-dgdq34inw</odeBlockId>
+          <odeIdeviceId>idevice-1779404756589-f56lufjjp</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/..html" data-mce-html="true"></iframe></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779404756589-f56lufjjp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/..html\" data-mce-html=\"true\"></iframe></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85aa-7e4vl8a87</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Contenido3</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido3</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido 3</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Contenido3</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85aa-7e4vl8a87</odePageId>
+      <odeBlockId>block-1779397727313-xamt324co</odeBlockId>
+      <blockName>Abstracción</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85aa-7e4vl8a87</odePageId>
+          <odeBlockId>block-1779397727313-xamt324co</odeBlockId>
+          <odeIdeviceId>idevice-1779397727306-hr4g8p863</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: center;"><strong>Abstracción </strong></p>
+<p>Consiste en eliminar detalles y simplificar la situación, decidiendo qué es importante y qué se puede ignorar al retirar o remover lo innecesario para atender solo lo relevante como ocurre al usar un mapa o hacer un resumen la complejidad se vuelve más manejable. Este ejercicio permite identificar características comunes para crear un modelo de razonamiento más claro (Ministerio de Educación, 2023, p. 10).</p>
+<p style="text-align: center;"><img src="{{context_path}}/content/resources/l.png" width="300" height="168" alt="" /></p>
+<p><strong>Ejemplo:</strong></p>
+<p>Al usar un mapa, no necesitas ver cada árbol o el color de las casas solo te fijas en las calles y las vueltas para llegar. Ignoras los detalles que no sirven para enfocarte en lo importante.</p>
+<p>Video de apoyo: </p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/VZKCktZCQ_Q?si=w9ofZfMr4nEATrEZ" allowfullscreen="allowfullscreen"></iframe></p>
+<p><br /></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779397727306-hr4g8p863","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"><strong>Abstracción </strong></p>\n<p>Consiste en eliminar detalles y simplificar la situación, decidiendo qué es importante y qué se puede ignorar al retirar o remover lo innecesario para atender solo lo relevante como ocurre al usar un mapa o hacer un resumen la complejidad se vuelve más manejable. Este ejercicio permite identificar características comunes para crear un modelo de razonamiento más claro (Ministerio de Educación, 2023, p. 10).</p>\n<p style=\"text-align: center;\"><img src=\"{{context_path}}/content/resources/l.png\" width=\"300\" height=\"168\" alt=\"\" /></p>\n<p><strong>Ejemplo:</strong></p>\n<p>Al usar un mapa, no necesitas ver cada árbol o el color de las casas solo te fijas en las calles y las vueltas para llegar. Ignoras los detalles que no sirven para enfocarte en lo importante.</p>\n<p>Video de apoyo: </p>\n<p style=\"text-align: center;\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/VZKCktZCQ_Q?si=w9ofZfMr4nEATrEZ\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><br /></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ab-yrufdgns4</odePageId>
+  <odeParentPageId>page-mpja85aa-7e4vl8a87</odeParentPageId>
+  <pageName>Actividad3</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad3</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad 3</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Actividad3</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ab-yrufdgns4</odePageId>
+      <odeBlockId>block-1779423435997-v67lwv4md</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ab-yrufdgns4</odePageId>
+          <odeBlockId>block-1779423435997-v67lwv4md</odeBlockId>
+          <odeIdeviceId>idevice-1779423435992-h9giaeztu</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/A.html" data-mce-html="true"></iframe></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779423435992-h9giaeztu","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/A.html\" data-mce-html=\"true\"></iframe></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ac-9wdu1nk9e</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Contenido4</pageName>
+  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido4</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido 4</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Contenido4</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ac-9wdu1nk9e</odePageId>
+      <odeBlockId>block-1779397831662-yk97zl2v9</odeBlockId>
+      <blockName>1.      
+Algoritmos</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ac-9wdu1nk9e</odePageId>
+          <odeBlockId>block-1779397831662-yk97zl2v9</odeBlockId>
+          <odeIdeviceId>idevice-1779397831657-ipg00setm</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: center;"><strong>Algoritmos   </strong>  </p>
+<p>Un algoritmo es la serie de acciones e instrucciones organizadas de manera lógica y ordenada se trata de una lista de pasos finitos que permiten cumplir objetivos rutinarios como prepararse para la escuela o hacer empanadas, cuando una tarea es más compleja surgen más opciones de pasos a seguir por lo que se debe elegir el algoritmo que cumpla el objetivo de la forma más rápida y económica buscando siempre la eficiencia (Ministerio de Educación, 2023, p. 11).</p>
+<p style="text-align: center;"><img src="{{context_path}}/content/resources/5.jpg" width="236" height="208" alt="" /><br /></p>
+<p><strong>Ejemplo:</strong></p>
+<p>Los pasos para lavarse las manos:</p>
+<p>1 Abrir el agua.<br />2 Ponerse jabón.<br />3 Frotar las manos.<br />4 Enjuagarse.<br />5 Cerrar el agua.<br />Si cambias el orden como secarte antes de mojarte, ¡el algoritmo no funciona.</p>
+<p>Video de apoyo:</p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/U3CGMyjzlvM?si=GwJ0tu8F1U7Q5FRI" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779397831657-ipg00setm","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"><strong>Algoritmos   </strong>  </p>\n<p>Un algoritmo es la serie de acciones e instrucciones organizadas de manera lógica y ordenada se trata de una lista de pasos finitos que permiten cumplir objetivos rutinarios como prepararse para la escuela o hacer empanadas, cuando una tarea es más compleja surgen más opciones de pasos a seguir por lo que se debe elegir el algoritmo que cumpla el objetivo de la forma más rápida y económica buscando siempre la eficiencia (Ministerio de Educación, 2023, p. 11).</p>\n<p style=\"text-align: center;\"><img src=\"{{context_path}}/content/resources/5.jpg\" width=\"236\" height=\"208\" alt=\"\" /><br /></p>\n<p><strong>Ejemplo:</strong></p>\n<p>Los pasos para lavarse las manos:</p>\n<p>1 Abrir el agua.<br />2 Ponerse jabón.<br />3 Frotar las manos.<br />4 Enjuagarse.<br />5 Cerrar el agua.<br />Si cambias el orden como secarte antes de mojarte, ¡el algoritmo no funciona.</p>\n<p>Video de apoyo:</p>\n<p style=\"text-align: center;\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/U3CGMyjzlvM?si=GwJ0tu8F1U7Q5FRI\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p style=\"text-align: center;\"></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ad-36jhl1488</odePageId>
+  <odeParentPageId>page-mpja85ac-9wdu1nk9e</odeParentPageId>
+  <pageName>Actividad4</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad4</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad 4</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Actividad4</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ad-36jhl1488</odePageId>
+      <odeBlockId>block-1779402590443-fviozrbw2</odeBlockId>
+      <blockName>Actividad 4</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ad-36jhl1488</odePageId>
+          <odeBlockId>block-1779402590443-fviozrbw2</odeBlockId>
+          <odeIdeviceId>idevice-1779402590440-tsld1we8f</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/s..html" data-mce-html="true"></iframe></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779402590440-tsld1we8f","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/s..html\" data-mce-html=\"true\"></iframe></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ae-tsm49moal</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Actividad_Evaluativa</pageName>
+  <odeNavStructureOrder>8</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad_Evaluativa</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividad Evaluativa</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Actividad_Evaluativa</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ae-tsm49moal</odePageId>
+      <odeBlockId>block-1779423348168-a69420gfj</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ae-tsm49moal</odePageId>
+          <odeBlockId>block-1779423348168-a69420gfj</odeBlockId>
+          <odeIdeviceId>idevice-1779423348167-i6g24t59z</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/d.html" data-mce-html="true"></iframe><a href="contenido-4.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="retroalimentacion.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779423348167-i6g24t59z","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/d.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mpja85ac-9wdu1nk9e\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85ag-gnh3i02c0\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ag-gnh3i02c0</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Retroalimentación</pageName>
+  <odeNavStructureOrder>9</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Retroalimentación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Retroalimentación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Retroalimentación</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ag-gnh3i02c0</odePageId>
+      <odeBlockId>block-1779426578617-h5ldi1u81</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ag-gnh3i02c0</odePageId>
+          <odeBlockId>block-1779426578617-h5ldi1u81</odeBlockId>
+          <odeIdeviceId>idevice-1779426578613-6sn3qefbe</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/p.html" data-mce-html="true"></iframe><a href="actividad-evaluativa.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="creditos-.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426578613-6sn3qefbe","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/p.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mpja85ae-tsm49moal\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85ah-mvo4zdkst\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ah-mvo4zdkst</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Créditos </pageName>
+  <odeNavStructureOrder>10</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Créditos </value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Créditos </value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ah-mvo4zdkst</odePageId>
+      <odeBlockId>block-1779426807454-0xfewt36p</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ah-mvo4zdkst</odePageId>
+          <odeBlockId>block-1779426807454-0xfewt36p</odeBlockId>
+          <odeIdeviceId>idevice-1779426807452-mojl8mrtp</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <h4 style="text-align: center;"><strong>RESPONSABLES DEL PROYECTO </strong></h4>
+<p><strong></strong><br /></p>
+<p><strong>Joselin Granda  </strong><img src="{{context_path}}/content/resources/c.png" /></p>
+<p> <strong>Pablo Montaño   </strong><img src="{{context_path}}/content/resources/m.png" /></p>
+<p> <strong>Anahi Ruiz         <img src="{{context_path}}/content/resources/e.png" /></strong></p>
+<p> <strong>Anthony Cuenca <img src="{{context_path}}/content/resources/7.png" /></strong></p>
+<p style="text-align: center;"><strong>REFERENCIAS</strong></p>
+<p> Ministerio de Educación del Ecuador. (2023). Pensamiento computacional: Guía para el docente (Nivel Media). <a href="https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf">https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf</a></p>
+<p style="text-align: center;"><strong>Tipo de licencia</strong></p>
+<p style="text-align: center;"><strong><img src="{{context_path}}/content/resources/p4.png" /></strong></p>
+<p><a href="retroalimentacion.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a> <a href="ficha-didactica-.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426807452-mojl8mrtp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\"><strong>RESPONSABLES DEL PROYECTO </strong></h4>\n<p><strong></strong><br /></p>\n<p><strong>Joselin Granda  </strong><img src=\"{{context_path}}/content/resources/c.png\" /></p>\n<p> <strong>Pablo Montaño   </strong><img src=\"{{context_path}}/content/resources/m.png\" /></p>\n<p> <strong>Anahi Ruiz         <img src=\"{{context_path}}/content/resources/e.png\" /></strong></p>\n<p> <strong>Anthony Cuenca <img src=\"{{context_path}}/content/resources/7.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>REFERENCIAS</strong></p>\n<p> Ministerio de Educación del Ecuador. (2023). Pensamiento computacional: Guía para el docente (Nivel Media). <a href=\"https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf\">https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf</a></p>\n<p style=\"text-align: center;\"><strong>Tipo de licencia</strong></p>\n<p style=\"text-align: center;\"><strong><img src=\"{{context_path}}/content/resources/p4.png\" /></strong></p>\n<p><a href=\"exe-node:page-mpja85ag-gnh3i02c0\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a> <a href=\"exe-node:page-mpja85ai-4njdpbwca\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpja85ai-4njdpbwca</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Ficha_didáctica</pageName>
+  <odeNavStructureOrder>11</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Ficha_didáctica</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Ficha didáctica </value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Ficha_didáctica</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpja85ai-4njdpbwca</odePageId>
+      <odeBlockId>block-1779427834614-poq427m0e</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpja85ai-4njdpbwca</odePageId>
+          <odeBlockId>block-1779427834614-poq427m0e</odeBlockId>
+          <odeIdeviceId>idevice-1779427834606-ajx5kaui9</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <h4 style="text-align: center;"><strong>Ficha didáctica</strong><br /></h4>
+<p><img src="{{context_path}}/content/resources/6.png" width="403" height="534" alt="" /></p>
+<p><img src="{{context_path}}/content/resources/Ca.png" width="403" height="529" alt="" /></p>
+<p><img src="{{context_path}}/content/resources/46.png" width="401" height="212" alt="" /></p>
+<p><a href="creditos-.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" />+</a><a href="../index.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779427834606-ajx5kaui9","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\"><strong>Ficha didáctica</strong><br /></h4>\n<p><img src=\"{{context_path}}/content/resources/6.png\" width=\"403\" height=\"534\" alt=\"\" /></p>\n<p><img src=\"{{context_path}}/content/resources/Ca.png\" width=\"403\" height=\"529\" alt=\"\" /></p>\n<p><img src=\"{{context_path}}/content/resources/46.png\" width=\"401\" height=\"212\" alt=\"\" /></p>\n<p><a href=\"exe-node:page-mpja85ah-mvo4zdkst\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" />+</a><a href=\"exe-node:page-mpja859v-wq1lliozv\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
