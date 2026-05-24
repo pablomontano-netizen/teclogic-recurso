@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conocimientos previos - Razonamiento lógico y abstracto</title>
+  <style>
+    :root{
+      --azul:#429DCF;
+      --azul2:#eaf6fc;
+      --oscuro:#18435a;
+      --verde:#2e9b57;
+      --rojo:#d9534f;
+      --blanco:#ffffff;
+      --borde:#d8e7f0;
+      --sombra:0 10px 24px rgba(30, 80, 120, .12);
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #f7fbff 0%, #eef7fc 100%);
+      color:#243746;
+      padding:24px;
+    }
+
+    .contenedor{
+      max-width: 980px;
+      margin: 0 auto;
+      background: var(--blanco);
+      border-radius: 22px;
+      box-shadow: var(--sombra);
+      overflow: hidden;
+      border:1px solid #edf3f7;
+    }
+
+    .encabezado{
+      background: linear-gradient(135deg, var(--azul) 0%, #65b7df 100%);
+      color:white;
+      padding:28px 24px;
+      text-align:center;
+    }
+
+    .encabezado h1{
+      margin:0 0 8px;
+      font-size: 30px;
+    }
+
+    .encabezado p{
+      margin:0;
+      font-size:16px;
+      opacity:.98;
+    }
+
+    .barra{
+      margin-top:18px;
+      background: rgba(255,255,255,.25);
+      height:14px;
+      border-radius:999px;
+      overflow:hidden;
+      max-width:520px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .progreso{
+      width:0%;
+      height:100%;
+      background:white;
+      transition: width .35s ease;
+    }
+
+    .cuerpo{
+      padding:24px;
+    }
+
+    .nota{
+      background:#f6fbfe;
+      border:1px dashed #bfd9e8;
+      padding:14px 16px;
+      border-radius:14px;
+      margin-bottom:20px;
+      color:#3d6277;
+      text-align:center;
+    }
+
+    .pregunta{
+      border:1px solid var(--borde);
+      border-radius:18px;
+      padding:18px;
+      margin-bottom:18px;
+      background: #fff;
+    }
+
+    .pregunta h2{
+      font-size:20px;
+      margin:0 0 12px;
+      color:var(--oscuro);
+    }
+
+    .pregunta p.enunciado{
+      margin:0 0 14px;
+      line-height:1.5;
+    }
+
+    .visual{
+      background: var(--azul2);
+      border-radius:16px;
+      padding:16px;
+      margin:12px 0 14px;
+      border:1px solid #d5eaf5;
+    }
+
+    .mini-titulo{
+      font-size:14px;
+      color:#4d7188;
+      margin-bottom:10px;
+      font-weight:bold;
+    }
+
+    .fila{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .bloque{
+      min-width:110px;
+      padding:14px 12px;
+      background:white;
+      border-radius:14px;
+      border:1px solid #dbe8f1;
+      text-align:center;
+      box-shadow:0 2px 8px rgba(0,0,0,.03);
+    }
+
+    .icono{
+      font-size:30px;
+      margin-bottom:8px;
+      display:block;
+    }
+
+    .opciones{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .opcion{
+      border:1.5px solid #d7e4ec;
+      border-radius:14px;
+      padding:12px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      cursor:pointer;
+      transition: all .22s ease;
+      background:#fff;
+    }
+
+    .opcion:hover{
+      transform:translateY(-1px);
+      border-color: var(--azul);
+      background:#f8fcff;
+    }
+
+    .opcion input{
+      transform:scale(1.15);
+      accent-color: var(--azul);
+      cursor:pointer;
+    }
+
+    .opcion .texto{
+      flex:1;
+      line-height:1.45;
+    }
+
+    .emoji-opcion{
+      font-size:26px;
+      width:38px;
+      text-align:center;
+      flex-shrink:0;
+    }
+
+    .retro{
+      margin-top:10px;
+      font-size:14px;
+      font-weight:bold;
+      min-height:18px;
+    }
+
+    .acciones{
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top:24px;
+    }
+
+    button{
+      border:none;
+      border-radius:12px;
+      padding:13px 22px;
+      font-size:16px;
+      cursor:pointer;
+      font-weight:bold;
+      transition:transform .2s ease;
+    }
+
+    button:hover{ transform: translateY(-1px); }
+
+    .btn-principal{
+      background: var(--azul);
+      color:white;
+    }
+
+    .btn-secundario{
+      background:#eef5f8;
+      color:#32566b;
+    }
+
+    #resultado{
+      display:none;
+      margin-top:22px;
+      padding:16px;
+      border-radius:16px;
+      text-align:center;
+      font-size:18px;
+      font-weight:bold;
+    }
+
+    .alto{ background:#e7f8ee; color:#1c6b3b; border:1px solid #b9e7cb; }
+    .medio{ background:#fff8df; color:#8a6b00; border:1px solid #f1df93; }
+    .bajo{ background:#fdecea; color:#9d2f2b; border:1px solid #f3b7b4; }
+
+    .secuencia{
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      margin:8px 0 2px;
+    }
+
+    .circulo, .cuadrado, .triangulo{
+      width:46px;
+      height:46px;
+      display:inline-block;
+    }
+
+    .circulo{
+      border-radius:50%;
+      background:#4aa7d8;
+    }
+
+    .cuadrado{
+      background:#ffd166;
+      border-radius:8px;
+    }
+
+    .triangulo{
+      width:0;
+      height:0;
+      border-left:23px solid transparent;
+      border-right:23px solid transparent;
+      border-bottom:42px solid #7cc576;
+    }
+
+    .interrogacion{
+      font-size:36px;
+      font-weight:bold;
+      color:#395a70;
+      width:46px;
+      text-align:center;
+    }
+
+    .vf{
+      font-size:40px;
+      font-weight:bold;
+      color:var(--azul);
+    }
+
+    .pie{
+      text-align:center;
+      color:#658094;
+      font-size:13px;
+      padding:0 24px 24px;
+    }
+
+    @media (max-width: 700px){
+      body{ padding:12px; }
+      .encabezado h1{ font-size:24px; }
+      .cuerpo{ padding:16px; }
+      .bloque{ min-width:95px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="encabezado">
+      <h1>Conocimientos Previos</h1>
+      <p>Razonamiento lógico y abstracto: descomposición, abstracción, patrones y algoritmos</p>
+      <div class="barra"><div class="progreso" id="progreso"></div></div>
+    </div>
+
+    <div class="cuerpo">
+      <div class="nota">
+        Responde las <strong>5 preguntas</strong>. Algunas son de selección y otras de verdadero o falso.
+      </div>
+
+      <form id="quiz">
+
+        <!-- Pregunta 3 anterior -->
+        <div class="pregunta">
+          <h2>1. Patrones</h2>
+          <p class="enunciado">Mira la secuencia. ¿Qué figura debería ir en el lugar del signo de interrogación?</p>
+          <div class="visual">
+            <div class="mini-titulo">Secuencia visual</div>
+            <div class="secuencia">
+              <span class="circulo"></span>
+              <span class="cuadrado"></span>
+              <span class="circulo"></span>
+              <span class="cuadrado"></span>
+              <span class="circulo"></span>
+              <span class="interrogacion">?</span>
+            </div>
+          </div>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="p1" value="a">
+              <div class="emoji-opcion">🔵</div>
+              <div class="texto">Círculo azul</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p1" value="b">
+              <div class="emoji-opcion">🟨</div>
+              <div class="texto">Cuadrado amarillo</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p1" value="c">
+              <div class="emoji-opcion">🔺</div>
+              <div class="texto">Triángulo verde</div>
+            </label>
+          </div>
+          <div class="retro" id="r1"></div>
+        </div>
+
+        <!-- Pregunta 1 anterior -->
+        <div class="pregunta">
+          <h2>2. Descomposición</h2>
+          <p class="enunciado">Observa la imagen. Si queremos resolver una tarea grande paso a paso, ¿qué estamos haciendo?</p>
+          <div class="visual">
+            <div class="mini-titulo">Ejemplo visual</div>
+            <div class="fila">
+              <div class="bloque"><span class="icono">🎂</span>Hacer un pastel</div>
+              <div class="bloque"><span class="icono">🥚</span>Ingredientes</div>
+              <div class="bloque"><span class="icono">🥣</span>Mezclar</div>
+              <div class="bloque"><span class="icono">🔥</span>Hornear</div>
+            </div>
+          </div>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="p2" value="a">
+              <div class="emoji-opcion">🧩</div>
+              <div class="texto">Descomposición</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p2" value="b">
+              <div class="emoji-opcion">🎯</div>
+              <div class="texto">Abstracción</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p2" value="c">
+              <div class="emoji-opcion">🔁</div>
+              <div class="texto">Patrón</div>
+            </label>
+          </div>
+          <div class="retro" id="r2"></div>
+        </div>
+
+        <!-- Pregunta 4 anterior -->
+        <div class="pregunta">
+          <h2>3. Algoritmos</h2>
+          <p class="enunciado">¿Cuál de las siguientes opciones representa mejor un algoritmo?</p>
+          <div class="visual">
+            <div class="mini-titulo">Ejemplo visual</div>
+            <div class="fila">
+              <div class="bloque"><span class="icono">1️⃣</span>Inicio</div>
+              <div class="bloque"><span class="icono">2️⃣</span>Proceso</div>
+              <div class="bloque"><span class="icono">3️⃣</span>Resultado</div>
+            </div>
+          </div>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="p3" value="a">
+              <div class="emoji-opcion">🎲</div>
+              <div class="texto">Hacer algo sin orden</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p3" value="b">
+              <div class="emoji-opcion">📌</div>
+              <div class="texto">Seguir pasos ordenados para cumplir una tarea</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p3" value="c">
+              <div class="emoji-opcion">🖼️</div>
+              <div class="texto">Solo observar una imagen</div>
+            </label>
+          </div>
+          <div class="retro" id="r3"></div>
+        </div>
+
+        <!-- Pregunta nueva verdadero/falso -->
+        <div class="pregunta">
+          <h2>4. Verdadero o falso: abstracción</h2>
+          <p class="enunciado">La abstracción sirve para identificar la información más importante de un problema y dejar de lado los detalles que no son necesarios.</p>
+          <div class="visual">
+            <div class="mini-titulo">Pista visual</div>
+            <div class="fila">
+              <div class="bloque"><span class="icono">🧠</span>Analizar</div>
+              <div class="bloque"><span class="icono">🎯</span>Elegir lo importante</div>
+              <div class="bloque"><span class="icono">🧹</span>Quitar lo innecesario</div>
+            </div>
+          </div>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="p4" value="a">
+              <div class="emoji-opcion">✅</div>
+              <div class="texto">Verdadero</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p4" value="b">
+              <div class="emoji-opcion">❌</div>
+              <div class="texto">Falso</div>
+            </label>
+          </div>
+          <div class="retro" id="r4"></div>
+        </div>
+
+        <!-- Pregunta nueva de escoger -->
+        <div class="pregunta">
+          <h2>5. Escoger: razonamiento lógico</h2>
+          <p class="enunciado">¿Cuál opción muestra mejor el uso del razonamiento lógico?</p>
+          <div class="visual">
+            <div class="mini-titulo">Ejemplo visual</div>
+            <div class="fila">
+              <div class="bloque"><span class="icono">🔎</span>Observo</div>
+              <div class="bloque"><span class="icono">🤔</span>Pienso</div>
+              <div class="bloque"><span class="icono">✅</span>Elijo la mejor respuesta</div>
+            </div>
+          </div>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="p5" value="a">
+              <div class="emoji-opcion">🎲</div>
+              <div class="texto">Responder al azar sin revisar el problema</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p5" value="b">
+              <div class="emoji-opcion">🧠</div>
+              <div class="texto">Analizar la información y elegir la respuesta más coherente</div>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="p5" value="c">
+              <div class="emoji-opcion">🙈</div>
+              <div class="texto">Ignorar las pistas del ejercicio</div>
+            </label>
+          </div>
+          <div class="retro" id="r5"></div>
+        </div>
+
+        <div class="acciones">
+          <button type="button" class="btn-principal" onclick="calificar()">Calificar</button>
+          <button type="button" class="btn-secundario" onclick="reiniciar()">Reiniciar</button>
+        </div>
+
+        <div id="resultado"></div>
+      </form>
+    </div>
+
+    <div class="pie">
+      Recurso interactivo sencillo en HTML.
+    </div>
+  </div>
+
+  <script>
+    const respuestas = {
+      p1: "b",
+      p2: "a",
+      p3: "b",
+      p4: "a",
+      p5: "b"
+    };
+
+    const retroCorrecta = {
+      p1: "✅ Correcto: la secuencia alterna círculo, cuadrado, círculo, cuadrado...",
+      p2: "✅ Correcto: dividir una tarea grande en partes es descomposición.",
+      p3: "✅ Correcto: un algoritmo es una serie de pasos ordenados.",
+      p4: "✅ Correcto: la abstracción ayuda a quedarnos con lo esencial.",
+      p5: "✅ Correcto: razonar lógicamente es analizar antes de responder."
+    };
+
+    const retroIncorrecta = {
+      p1: "❌ Incorrecto: la figura que sigue es un cuadrado amarillo.",
+      p2: "❌ Incorrecto: aquí se está separando una tarea en partes pequeñas, eso es descomposición.",
+      p3: "❌ Incorrecto: un algoritmo permite resolver algo mediante pasos ordenados.",
+      p4: "❌ Incorrecto: la afirmación es verdadera, porque la abstracción selecciona lo importante.",
+      p5: "❌ Incorrecto: el razonamiento lógico implica pensar, analizar y elegir con sentido."
+    };
+
+    function actualizarProgreso() {
+      const total = 5;
+      let contestadas = 0;
+
+      for (let i = 1; i <= total; i++) {
+        const marcada = document.querySelector(`input[name="p${i}"]:checked`);
+        if (marcada) contestadas++;
+      }
+
+      const porcentaje = (contestadas / total) * 100;
+      document.getElementById("progreso").style.width = porcentaje + "%";
+    }
+
+    document.querySelectorAll('input[type="radio"]').forEach(radio => {
+      radio.addEventListener("change", actualizarProgreso);
+    });
+
+    function calificar() {
+      let puntaje = 0;
+
+      for (let i = 1; i <= 5; i++) {
+        const nombre = "p" + i;
+        const seleccion = document.querySelector(`input[name="${nombre}"]:checked`);
+        const retro = document.getElementById("r" + i);
+
+        if (!seleccion) {
+          retro.textContent = "⚠️ Debes seleccionar una opción.";
+          retro.style.color = "#8a6b00";
+          continue;
+        }
+
+        if (seleccion.value === respuestas[nombre]) {
+          puntaje++;
+          retro.textContent = retroCorrecta[nombre];
+          retro.style.color = "#1c6b3b";
+        } else {
+          retro.textContent = retroIncorrecta[nombre];
+          retro.style.color = "#9d2f2b";
+        }
+      }
+
+      const resultado = document.getElementById("resultado");
+      resultado.style.display = "block";
+      resultado.className = "";
+
+      if (puntaje >= 4) {
+        resultado.classList.add("alto");
+        resultado.textContent = `Obtuviste ${puntaje}/5. ¡Muy bien! Tienes buenos conocimientos previos.`;
+      } else if (puntaje >= 3) {
+        resultado.classList.add("medio");
+        resultado.textContent = `Obtuviste ${puntaje}/5. Vas bien, pero aún puedes reforzar algunas ideas.`;
+      } else {
+        resultado.classList.add("bajo");
+        resultado.textContent = `Obtuviste ${puntaje}/5. Te conviene repasar los conceptos básicos.`;
+      }
+
+      resultado.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function reiniciar() {
+      document.getElementById("quiz").reset();
+
+      const resultado = document.getElementById("resultado");
+      resultado.style.display = "none";
+      resultado.textContent = "";
+      resultado.className = "";
+
+      for (let i = 1; i <= 5; i++) {
+        document.getElementById("r" + i).textContent = "";
+      }
+
+      document.getElementById("progreso").style.width = "0%";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>

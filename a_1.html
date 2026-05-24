@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Evaluación Pensamiento Computacional</title>
+<style>
+body { font-family: Arial, sans-serif; background-color: #f0f8ff; padding: 20px; }
+h2 { text-align: center; color: #1e90ff; }
+.section { margin-bottom: 40px; }
+.question { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; background-color: #fff; }
+.feedback { margin-top: 10px; font-weight: bold; }
+button { margin-right: 10px; margin-top: 10px; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; background-color: #87ceeb; color: #fff; font-weight: bold; }
+button:hover { background-color: #00bfff; }
+.dropzone { min-height: 50px; border: 2px dashed #1e90ff; padding: 10px; display: flex; flex-wrap: wrap; margin-bottom: 10px; }
+.draggable { cursor: grab; padding: 5px 10px; border: 1px solid #1e90ff; border-radius: 5px; margin: 5px; background-color: #fff; }
+</style>
+</head>
+<body>
+
+<h2>Evaluación: Pensamiento Computacional</h2>
+
+<!-- Abstracción -->
+<div class="section">
+<h3>1. Abstracción - Arrastra lo relevante</h3>
+<p>Selecciona solo los elementos relevantes para preparar un sándwich:</p>
+<div class="dropzone" id="abstraction-drop"></div>
+<div class="draggable" data-relevant="true" draggable="true">Pan</div>
+<div class="draggable" data-relevant="true" draggable="true">Mantequilla</div>
+<div class="draggable" data-relevant="true" draggable="true">Huevo</div>
+<div class="draggable" data-relevant="false" draggable="true">Pintar pared</div>
+<div class="draggable" data-relevant="false" draggable="true">Montar patineta</div>
+<div class="feedback" id="feedback-abstraction"></div>
+<button onclick="checkAbstraction()">Verificar</button>
+</div>
+
+<!-- Descomposición -->
+<div class="section">
+<h3>2. Descomposición - Ordena los pasos</h3>
+<p>Ordena las palabras para preparar un pastel correctamente:</p>
+<div class="dropzone" id="decomposition-drop">
+<div class="draggable" draggable="true">Encender el horno</div>
+<div class="draggable" draggable="true">Mezclar</div>
+<div class="draggable" draggable="true">Batir</div>
+<div class="draggable" draggable="true">Hornear</div>
+<div class="draggable" draggable="true">Decorar</div>
+</div>
+<div class="feedback" id="feedback-decomposition"></div>
+<button onclick="checkDecomposition()">Verificar</button>
+</div>
+
+<!-- Patrones -->
+<div class="section">
+<h3>3. Patrones - Completa la secuencia</h3>
+<p>Completa la secuencia de colores: 🔴 🔵 🔴 🔵 🔴 ___</p>
+<button onclick="checkPattern('🔵')">🔵</button>
+<button onclick="checkPattern('🟡')">🟡</button>
+<button onclick="checkPattern('🟢')">🟢</button>
+<button onclick="checkPattern('🔴')">🔴</button>
+<div class="feedback" id="feedback-pattern"></div>
+</div>
+
+<!-- Algoritmos -->
+<div class="section">
+<h3>4. Algoritmos - Verdadero/Falso</h3>
+<div class="question" data-answer="V">
+<p>Abrir el grifo debe hacerse antes de enjabonar las manos.</p>
+<button onclick="checkAnswer(this)">Verdadero</button>
+<button onclick="checkAnswer(this)">Falso</button>
+<div class="feedback"></div>
+</div>
+<div class="question" data-answer="F">
+<p>Secar las manos se hace antes de enjuagarlas.</p>
+<button onclick="checkAnswer(this)">Verdadero</button>
+<button onclick="checkAnswer(this)">Falso</button>
+<div class="feedback"></div>
+</div>
+<div class="question" data-answer="V">
+<p>Enjuagar las manos con agua ocurre después de aplicar el jabón.</p>
+<button onclick="checkAnswer(this)">Verdadero</button>
+<button onclick="checkAnswer(this)">Falso</button>
+<div class="feedback"></div>
+</div>
+
+<script>
+// Abstracción
+const dropAbstraction = document.getElementById('abstraction-drop');
+document.querySelectorAll('.draggable').forEach(el => {
+  el.addEventListener('dragstart', e => { e.dataTransfer.setData('text', e.target.outerHTML); });
+});
+dropAbstraction.addEventListener('dragover', e => e.preventDefault());
+dropAbstraction.addEventListener('drop', e => {
+  e.preventDefault();
+  dropAbstraction.innerHTML += e.dataTransfer.getData('text');
+});
+
+function checkAbstraction() {
+  const items = dropAbstraction.querySelectorAll('.draggable');
+  let correct = true;
+  items.forEach(item => {
+    if (item.dataset.relevant === 'false') correct = false;
+  });
+  document.getElementById('feedback-abstraction').innerText = correct ? "¡Correcto! Has identificado los elementos relevantes." : "Revisa los elementos, algunos no son relevantes.";
+}
+
+// Descomposición
+const dropDecomposition = document.getElementById('decomposition-drop');
+[...dropDecomposition.children].forEach(el => el.setAttribute('data-original', el.innerText));
+
+function checkDecomposition() {
+  const children = [...dropDecomposition.children];
+  const correctOrder = ['Encender el horno','Mezclar','Batir','Hornear','Decorar'];
+  let correct = children.map(c=>c.innerText).join(',') === correctOrder.join(',');
+  document.getElementById('feedback-decomposition').innerText = correct ? "¡Excelente! Has ordenado los pasos correctamente." : "Revisa el orden de los pasos.";
+}
+
+// Patrones
+function checkPattern(value) {
+  const feedback = document.getElementById('feedback-pattern');
+  feedback.innerText = value === '🔵' ? "¡Muy bien! Identificaste el patrón." : "Incorrecto, revisa la secuencia.";
+}
+
+// Algoritmos
+function checkAnswer(btn) {
+  const questionDiv = btn.closest('.question');
+  const feedbackDiv = questionDiv.querySelector('.feedback');
+  const correct = questionDiv.getAttribute('data-answer');
+  const userAnswer = btn.innerText[0]; // V o F
+  if (userAnswer === correct) {
+    feedbackDiv.innerHTML = "¡Correcto! ✅";
+    feedbackDiv.style.color = "green";
+  } else {
+    feedbackDiv.innerHTML = "Incorrecto ❌. Revisa el orden del algoritmo.";
+    feedbackDiv.style.color = "red";
+  }
+}
+</script>
+
+</body>
+</html>
