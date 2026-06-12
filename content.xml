@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260524021032H5Q1R5</value>
+    <value>202606121118125CWAYM</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>202605240210327U7RCX</value>
+    <value>20260612111812E4703N</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -48,7 +48,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>1779597202211</value>
+    <value>1781279925712</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -81,7 +81,7 @@
 </odeProperties>
 <odeNavStructures>
 <odeNavStructure>
-  <odePageId>page-mpja859v-wq1lliozv</odePageId>
+  <odePageId>page-mqb42pnw-nnbhvq1ak</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Portada</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
@@ -117,7 +117,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja859v-wq1lliozv</odePageId>
+      <odePageId>page-mqb42pnw-nnbhvq1ak</odePageId>
       <odeBlockId>block-1777320568552-t92ischmc</odeBlockId>
       <blockName></blockName>
       <iconName></iconName>
@@ -146,7 +146,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja859v-wq1lliozv</odePageId>
+          <odePageId>page-mqb42pnw-nnbhvq1ak</odePageId>
           <odeBlockId>block-1777320568552-t92ischmc</odeBlockId>
           <odeIdeviceId>idevice-1777320568549-l9qgafi9e</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -186,8 +186,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a1-mi5nmvofd</odePageId>
-  <odeParentPageId>page-mpja859v-wq1lliozv</odeParentPageId>
+  <odePageId>page-mqb42pnz-t7b7rgkdt</odePageId>
+  <odeParentPageId>page-mqb42pnw-nnbhvq1ak</odeParentPageId>
   <pageName>Introducción</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -222,7 +222,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a1-mi5nmvofd</odePageId>
+      <odePageId>page-mqb42pnz-t7b7rgkdt</odePageId>
       <odeBlockId>block-1779307543668-p7qdszq29</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -251,7 +251,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a1-mi5nmvofd</odePageId>
+          <odePageId>page-mqb42pnz-t7b7rgkdt</odePageId>
           <odeBlockId>block-1779307543668-p7qdszq29</odeBlockId>
           <odeIdeviceId>idevice-1779307543660-fc35td18j</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -263,7 +263,7 @@
 <p><br />Patrones: Buscar repeticiones o secretos.<br />Abstracción: Concentrarte solo en lo importante                  .<img src="{{context_path}}/content/resources/2_1.png" width="154" height="114" alt="" /><br />Algoritmos: Seguir pasos ordenados.<br />Prepárate para divertirte con retos y actividades interactivas ¿Empezamos?</p>
 <p style="text-align: right;"><a href="objetivo.html" title=""><img src="{{context_path}}/content/resources/t.png" width="158" height="86" alt="" style="float: left;" /><img src="{{context_path}}/content/resources/b.png" width="159" height="87" alt="" /> </a></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779307543660-fc35td18j","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p></p>\n<p>Hola, En este sitio aprenderás a resolver problemas como usando el Pensamiento Computacional a la par que sea entretenido y educativo.</p>\n<p>Para lograrlo, entrenarás cuatro habilidades clave:</p>\n<p>Descomposición: Dividir un problema en partes pequeñas.</p>\n<p><br />Patrones: Buscar repeticiones o secretos.<br />Abstracción: Concentrarte solo en lo importante                  .<img src=\"{{context_path}}/content/resources/2_1.png\" width=\"154\" height=\"114\" alt=\"\" /><br />Algoritmos: Seguir pasos ordenados.<br />Prepárate para divertirte con retos y actividades interactivas ¿Empezamos?</p>\n<p style=\"text-align: right;\"><a href=\"exe-node:page-mpja85a2-nyjcr7l0d\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"158\" height=\"86\" alt=\"\" style=\"float: left;\" /><img src=\"{{context_path}}/content/resources/b.png\" width=\"159\" height=\"87\" alt=\"\" /> </a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779307543660-fc35td18j","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p></p>\n<p>Hola, En este sitio aprenderás a resolver problemas como usando el Pensamiento Computacional a la par que sea entretenido y educativo.</p>\n<p>Para lograrlo, entrenarás cuatro habilidades clave:</p>\n<p>Descomposición: Dividir un problema en partes pequeñas.</p>\n<p><br />Patrones: Buscar repeticiones o secretos.<br />Abstracción: Concentrarte solo en lo importante                  .<img src=\"{{context_path}}/content/resources/2_1.png\" width=\"154\" height=\"114\" alt=\"\" /><br />Algoritmos: Seguir pasos ordenados.<br />Prepárate para divertirte con retos y actividades interactivas ¿Empezamos?</p>\n<p style=\"text-align: right;\"><a href=\"exe-node:page-mqb42po1-1o3gezect\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"158\" height=\"86\" alt=\"\" style=\"float: left;\" /><img src=\"{{context_path}}/content/resources/b.png\" width=\"159\" height=\"87\" alt=\"\" /> </a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -285,7 +285,7 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a2-nyjcr7l0d</odePageId>
+  <odePageId>page-mqb42po1-1o3gezect</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Objetivo</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
@@ -321,7 +321,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a2-nyjcr7l0d</odePageId>
+      <odePageId>page-mqb42po1-1o3gezect</odePageId>
       <odeBlockId>block-1777318443504-7zv1kvtjc</odeBlockId>
       <blockName>OBJETIVO DE APRENDIZAJE</blockName>
       <iconName></iconName>
@@ -350,7 +350,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a2-nyjcr7l0d</odePageId>
+          <odePageId>page-mqb42po1-1o3gezect</odePageId>
           <odeBlockId>block-1777318443504-7zv1kvtjc</odeBlockId>
           <odeIdeviceId>idevice-1777318443497-qzpu7maov</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -366,7 +366,7 @@
 <p><a href="../index.html" title=""><img src="{{context_path}}/content/resources/t.png" width="181" height="99" alt="" /></a> <a href="conocimientosprevios.html" title=""><img src="{{context_path}}/content/resources/b.png" width="173" height="95" alt="" style="float: right;" /></a></p>
 <p><br /></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777318443497-qzpu7maov","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\">Objetivo</h4>\n<p>OG.TD.1. Aplicar habilidades digitales y de pensamiento lógico para resolver desafíos y retos de manera creativa, haciendo uso de recursos tecnológicos de forma segura y responsable, para desarrollar estrategias de resolución de problemas a través del uso adecuado de herramientas digitales, demostrando capacidad de análisis, creatividad y pensamiento crítico.</p>\n<p><strong>DESTREZA</strong></p>\n<p>Innovar en soluciones tecnológicas aplicando programación y razonamiento lógico-abstracto en contextos educativos. (CC) (CM) (CD) (CS) (ES)</p>\n<p>Ref. (TD.3.3.1.)</p>\n<p><strong>CRITERIO DE EVALUACIÓN</strong></p>\n<p>CE.TD.3.3. Desarrolla proyectos tecnológicos innovadores en entornos de programación por bloques, integrando razonamiento lógico, creatividad y el uso de inteligencia artificial aplicada a la educación, demostrando autonomía, resolución de problemas y pensamiento crítico.</p>\n<p><br /></p>\n<p><a href=\"exe-node:page-mpja859v-wq1lliozv\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"181\" height=\"99\" alt=\"\" /></a> <a href=\"exe-node:page-mpja85a4-uxq2almyk\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"173\" height=\"95\" alt=\"\" style=\"float: right;\" /></a></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777318443497-qzpu7maov","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\">Objetivo</h4>\n<p>OG.TD.1. Aplicar habilidades digitales y de pensamiento lógico para resolver desafíos y retos de manera creativa, haciendo uso de recursos tecnológicos de forma segura y responsable, para desarrollar estrategias de resolución de problemas a través del uso adecuado de herramientas digitales, demostrando capacidad de análisis, creatividad y pensamiento crítico.</p>\n<p><strong>DESTREZA</strong></p>\n<p>Innovar en soluciones tecnológicas aplicando programación y razonamiento lógico-abstracto en contextos educativos. (CC) (CM) (CD) (CS) (ES)</p>\n<p>Ref. (TD.3.3.1.)</p>\n<p><strong>CRITERIO DE EVALUACIÓN</strong></p>\n<p>CE.TD.3.3. Desarrolla proyectos tecnológicos innovadores en entornos de programación por bloques, integrando razonamiento lógico, creatividad y el uso de inteligencia artificial aplicada a la educación, demostrando autonomía, resolución de problemas y pensamiento crítico.</p>\n<p><br /></p>\n<p><a href=\"exe-node:page-mqb42pnw-nnbhvq1ak\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"181\" height=\"99\" alt=\"\" /></a> <a href=\"exe-node:page-mqb42po2-qhutktocb\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"173\" height=\"95\" alt=\"\" style=\"float: right;\" /></a></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -388,7 +388,7 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a4-uxq2almyk</odePageId>
+  <odePageId>page-mqb42po2-qhutktocb</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Conocimientos_previos</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
@@ -424,7 +424,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a4-uxq2almyk</odePageId>
+      <odePageId>page-mqb42po2-qhutktocb</odePageId>
       <odeBlockId>block-1779426765356-d8x4x7y4e</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -453,7 +453,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a4-uxq2almyk</odePageId>
+          <odePageId>page-mqb42po2-qhutktocb</odePageId>
           <odeBlockId>block-1779426765356-d8x4x7y4e</odeBlockId>
           <odeIdeviceId>idevice-1779426765337-x6pi1xllf</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -461,7 +461,7 @@
     <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/ts.html" data-mce-html="true"></iframe></p>
 <p><a href="objetivo.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="menu.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426765337-x6pi1xllf","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/ts.html\" data-mce-html=\"true\"></iframe></p>\n<p><a href=\"exe-node:page-mpja85a2-nyjcr7l0d\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85a5-7wmy2ahje\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426765337-x6pi1xllf","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/ts.html\" data-mce-html=\"true\"></iframe></p>\n<p><a href=\"exe-node:page-mqb42po1-1o3gezect\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mqb42po3-ar2jnwtnj\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -483,7 +483,7 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a5-7wmy2ahje</odePageId>
+  <odePageId>page-mqb42po3-ar2jnwtnj</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Menú</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
@@ -519,7 +519,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a5-7wmy2ahje</odePageId>
+      <odePageId>page-mqb42po3-ar2jnwtnj</odePageId>
       <odeBlockId>block-1777320841320-nejlgbxqk</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -548,7 +548,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a5-7wmy2ahje</odePageId>
+          <odePageId>page-mqb42po3-ar2jnwtnj</odePageId>
           <odeBlockId>block-1777320841320-nejlgbxqk</odeBlockId>
           <odeIdeviceId>idevice-1777320841316-w84y0styn</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -564,7 +564,7 @@
 <p><br /></p>
 <p><br /></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777320841316-w84y0styn","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Contenidos que vamos  a tratar </p>\n<p><a href=\"exe-node:page-mpja85a6-mzx7yddjj\" title=\"\"><img src=\"{{context_path}}/content/resources/g.png\" width=\"255\" height=\"139\" alt=\"\" /></a>                   </p>\n<p><a href=\"exe-node:page-mpja85a8-qkvc8wvhr\" title=\"\"><img src=\"{{context_path}}/content/resources/x.png\" width=\"261\" height=\"142\" alt=\"\" /></a> <a href=\"exe-node:page-mpja85aa-7e4vl8a87\" title=\"\"></a></p>\n<p><a href=\"exe-node:page-mpja85aa-7e4vl8a87\" title=\"\"><img src=\"{{context_path}}/content/resources/8.png\" width=\"254\" height=\"139\" alt=\"\" /></a>                         </p>\n<p><a href=\"exe-node:page-mpja85ac-9wdu1nk9e\" title=\"\"><img src=\"{{context_path}}/content/resources/9.png\" width=\"264\" height=\"144\" alt=\"\" /></a></p>\n<p>        </p>\n<p>                             </p>\n<p>    </p>\n<p><br /></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777320841316-w84y0styn","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Contenidos que vamos  a tratar </p>\n<p><a href=\"exe-node:page-mqb42po4-i6ha26ull\" title=\"\"><img src=\"{{context_path}}/content/resources/g.png\" width=\"255\" height=\"139\" alt=\"\" /></a>                   </p>\n<p><a href=\"exe-node:page-mqb42po6-4nkkeewg5\" title=\"\"><img src=\"{{context_path}}/content/resources/x.png\" width=\"261\" height=\"142\" alt=\"\" /></a> <a href=\"exe-node:page-mqb42po9-npkcuy3h5\" title=\"\"></a></p>\n<p><a href=\"exe-node:page-mqb42po9-npkcuy3h5\" title=\"\"><img src=\"{{context_path}}/content/resources/8.png\" width=\"254\" height=\"139\" alt=\"\" /></a>                         </p>\n<p><a href=\"exe-node:page-mqb42pob-8aangf3ns\" title=\"\"><img src=\"{{context_path}}/content/resources/9.png\" width=\"264\" height=\"144\" alt=\"\" /></a></p>\n<p>        </p>\n<p>                             </p>\n<p>    </p>\n<p><br /></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -586,7 +586,7 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a6-mzx7yddjj</odePageId>
+  <odePageId>page-mqb42po4-i6ha26ull</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Contenido1</pageName>
   <odeNavStructureOrder>4</odeNavStructureOrder>
@@ -622,7 +622,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a6-mzx7yddjj</odePageId>
+      <odePageId>page-mqb42po4-i6ha26ull</odePageId>
       <odeBlockId>block-1779397143809-v7zffphiy</odeBlockId>
       <blockName>Descomposición</blockName>
       <iconName></iconName>
@@ -651,7 +651,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a6-mzx7yddjj</odePageId>
+          <odePageId>page-mqb42po4-i6ha26ull</odePageId>
           <odeBlockId>block-1779397143809-v7zffphiy</odeBlockId>
           <odeIdeviceId>idevice-1779397143806-xsyklmm9j</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -688,8 +688,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a7-2adlci40p</odePageId>
-  <odeParentPageId>page-mpja85a6-mzx7yddjj</odeParentPageId>
+  <odePageId>page-mqb42po5-urx9yhhs7</odePageId>
+  <odeParentPageId>page-mqb42po4-i6ha26ull</odeParentPageId>
   <pageName>Actividad1</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -724,7 +724,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a7-2adlci40p</odePageId>
+      <odePageId>page-mqb42po5-urx9yhhs7</odePageId>
       <odeBlockId>block-1779403598511-i5zggco62</odeBlockId>
       <blockName>Actividad 1</blockName>
       <iconName></iconName>
@@ -753,7 +753,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a7-2adlci40p</odePageId>
+          <odePageId>page-mqb42po5-urx9yhhs7</odePageId>
           <odeBlockId>block-1779403598511-i5zggco62</odeBlockId>
           <odeIdeviceId>idevice-1779403598505-bomaybh85</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -782,7 +782,7 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a8-qkvc8wvhr</odePageId>
+  <odePageId>page-mqb42po6-4nkkeewg5</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Contenido2</pageName>
   <odeNavStructureOrder>5</odeNavStructureOrder>
@@ -818,7 +818,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a8-qkvc8wvhr</odePageId>
+      <odePageId>page-mqb42po6-4nkkeewg5</odePageId>
       <odeBlockId>block-1779397518131-hi3x1p99c</odeBlockId>
       <blockName>1.       Reconocimiento
 de patrones</blockName>
@@ -848,7 +848,7 @@ de patrones</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a8-qkvc8wvhr</odePageId>
+          <odePageId>page-mqb42po6-4nkkeewg5</odePageId>
           <odeBlockId>block-1779397518131-hi3x1p99c</odeBlockId>
           <odeIdeviceId>idevice-1779397518129-lr1e0l7n1</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -883,8 +883,8 @@ de patrones</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85a9-t0wg4rulp</odePageId>
-  <odeParentPageId>page-mpja85a8-qkvc8wvhr</odeParentPageId>
+  <odePageId>page-mqb42po7-7fv2k3hm5</odePageId>
+  <odeParentPageId>page-mqb42po6-4nkkeewg5</odeParentPageId>
   <pageName>Actividad2</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -919,7 +919,7 @@ de patrones</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85a9-t0wg4rulp</odePageId>
+      <odePageId>page-mqb42po7-7fv2k3hm5</odePageId>
       <odeBlockId>block-1779404756597-dgdq34inw</odeBlockId>
       <blockName>Actividad</blockName>
       <iconName></iconName>
@@ -948,7 +948,7 @@ de patrones</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85a9-t0wg4rulp</odePageId>
+          <odePageId>page-mqb42po7-7fv2k3hm5</odePageId>
           <odeBlockId>block-1779404756597-dgdq34inw</odeBlockId>
           <odeIdeviceId>idevice-1779404756589-f56lufjjp</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -977,7 +977,7 @@ de patrones</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85aa-7e4vl8a87</odePageId>
+  <odePageId>page-mqb42po9-npkcuy3h5</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Contenido3</pageName>
   <odeNavStructureOrder>6</odeNavStructureOrder>
@@ -1013,7 +1013,7 @@ de patrones</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85aa-7e4vl8a87</odePageId>
+      <odePageId>page-mqb42po9-npkcuy3h5</odePageId>
       <odeBlockId>block-1779397727313-xamt324co</odeBlockId>
       <blockName>Abstracción</blockName>
       <iconName></iconName>
@@ -1042,7 +1042,7 @@ de patrones</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85aa-7e4vl8a87</odePageId>
+          <odePageId>page-mqb42po9-npkcuy3h5</odePageId>
           <odeBlockId>block-1779397727313-xamt324co</odeBlockId>
           <odeIdeviceId>idevice-1779397727306-hr4g8p863</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1079,8 +1079,8 @@ de patrones</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ab-yrufdgns4</odePageId>
-  <odeParentPageId>page-mpja85aa-7e4vl8a87</odeParentPageId>
+  <odePageId>page-mqb42poa-ubwvehdb0</odePageId>
+  <odeParentPageId>page-mqb42po9-npkcuy3h5</odeParentPageId>
   <pageName>Actividad3</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1115,7 +1115,7 @@ de patrones</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ab-yrufdgns4</odePageId>
+      <odePageId>page-mqb42poa-ubwvehdb0</odePageId>
       <odeBlockId>block-1779423435997-v67lwv4md</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -1144,7 +1144,7 @@ de patrones</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ab-yrufdgns4</odePageId>
+          <odePageId>page-mqb42poa-ubwvehdb0</odePageId>
           <odeBlockId>block-1779423435997-v67lwv4md</odeBlockId>
           <odeIdeviceId>idevice-1779423435992-h9giaeztu</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1173,7 +1173,7 @@ de patrones</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ac-9wdu1nk9e</odePageId>
+  <odePageId>page-mqb42pob-8aangf3ns</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Contenido4</pageName>
   <odeNavStructureOrder>7</odeNavStructureOrder>
@@ -1209,7 +1209,7 @@ de patrones</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ac-9wdu1nk9e</odePageId>
+      <odePageId>page-mqb42pob-8aangf3ns</odePageId>
       <odeBlockId>block-1779397831662-yk97zl2v9</odeBlockId>
       <blockName>1.      
 Algoritmos</blockName>
@@ -1239,7 +1239,7 @@ Algoritmos</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ac-9wdu1nk9e</odePageId>
+          <odePageId>page-mqb42pob-8aangf3ns</odePageId>
           <odeBlockId>block-1779397831662-yk97zl2v9</odeBlockId>
           <odeIdeviceId>idevice-1779397831657-ipg00setm</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1276,8 +1276,8 @@ Algoritmos</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ad-36jhl1488</odePageId>
-  <odeParentPageId>page-mpja85ac-9wdu1nk9e</odeParentPageId>
+  <odePageId>page-mqb42poc-9wdi4n45j</odePageId>
+  <odeParentPageId>page-mqb42pob-8aangf3ns</odeParentPageId>
   <pageName>Actividad4</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1312,7 +1312,7 @@ Algoritmos</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ad-36jhl1488</odePageId>
+      <odePageId>page-mqb42poc-9wdi4n45j</odePageId>
       <odeBlockId>block-1779402590443-fviozrbw2</odeBlockId>
       <blockName>Actividad 4</blockName>
       <iconName></iconName>
@@ -1341,7 +1341,7 @@ Algoritmos</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ad-36jhl1488</odePageId>
+          <odePageId>page-mqb42poc-9wdi4n45j</odePageId>
           <odeBlockId>block-1779402590443-fviozrbw2</odeBlockId>
           <odeIdeviceId>idevice-1779402590440-tsld1we8f</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1370,7 +1370,7 @@ Algoritmos</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ae-tsm49moal</odePageId>
+  <odePageId>page-mqb42poc-43iqukglm</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Actividad_Evaluativa</pageName>
   <odeNavStructureOrder>8</odeNavStructureOrder>
@@ -1406,7 +1406,7 @@ Algoritmos</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ae-tsm49moal</odePageId>
+      <odePageId>page-mqb42poc-43iqukglm</odePageId>
       <odeBlockId>block-1779423348168-a69420gfj</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -1435,14 +1435,14 @@ Algoritmos</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ae-tsm49moal</odePageId>
+          <odePageId>page-mqb42poc-43iqukglm</odePageId>
           <odeBlockId>block-1779423348168-a69420gfj</odeBlockId>
           <odeIdeviceId>idevice-1779423348167-i6g24t59z</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
     <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/d.html" data-mce-html="true"></iframe><a href="contenido4.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="retroalimentacion.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779423348167-i6g24t59z","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/d.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mpja85ac-9wdu1nk9e\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85ag-gnh3i02c0\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779423348167-i6g24t59z","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/d.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mqb42pob-8aangf3ns\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mqb42pod-l1moar00f\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1464,7 +1464,7 @@ Algoritmos</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ag-gnh3i02c0</odePageId>
+  <odePageId>page-mqb42pod-l1moar00f</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Retroalimentación</pageName>
   <odeNavStructureOrder>9</odeNavStructureOrder>
@@ -1500,7 +1500,7 @@ Algoritmos</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ag-gnh3i02c0</odePageId>
+      <odePageId>page-mqb42pod-l1moar00f</odePageId>
       <odeBlockId>block-1779426578617-h5ldi1u81</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -1529,14 +1529,14 @@ Algoritmos</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ag-gnh3i02c0</odePageId>
+          <odePageId>page-mqb42pod-l1moar00f</odePageId>
           <odeBlockId>block-1779426578617-h5ldi1u81</odeBlockId>
           <odeIdeviceId>idevice-1779426578613-6sn3qefbe</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
     <p><iframe width="100" height="600" style="width: 100%; height: 600px; border: 1px solid #ccc;" src="{{context_path}}/content/resources/p.html" data-mce-html="true"></iframe><a href="actividadevaluativa.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a><a href="creditos-.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426578613-6sn3qefbe","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/p.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mpja85ae-tsm49moal\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mpja85ah-mvo4zdkst\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426578613-6sn3qefbe","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><iframe width=\"100\" height=\"600\" style=\"width: 100%; height: 600px; border: 1px solid #ccc;\" src=\"{{context_path}}/content/resources/p.html\" data-mce-html=\"true\"></iframe><a href=\"exe-node:page-mqb42poc-43iqukglm\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a><a href=\"exe-node:page-mqb42poe-98ds9buuk\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1558,7 +1558,7 @@ Algoritmos</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ah-mvo4zdkst</odePageId>
+  <odePageId>page-mqb42poe-98ds9buuk</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Créditos </pageName>
   <odeNavStructureOrder>10</odeNavStructureOrder>
@@ -1594,7 +1594,7 @@ Algoritmos</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ah-mvo4zdkst</odePageId>
+      <odePageId>page-mqb42poe-98ds9buuk</odePageId>
       <odeBlockId>block-1779426807454-0xfewt36p</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -1623,7 +1623,7 @@ Algoritmos</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ah-mvo4zdkst</odePageId>
+          <odePageId>page-mqb42poe-98ds9buuk</odePageId>
           <odeBlockId>block-1779426807454-0xfewt36p</odeBlockId>
           <odeIdeviceId>idevice-1779426807452-mojl8mrtp</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1640,7 +1640,7 @@ Algoritmos</blockName>
 <p style="text-align: center;"><strong><img src="{{context_path}}/content/resources/p4.png" /></strong></p>
 <p><a href="retroalimentacion.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" /></a> <a href="fichadidactica.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426807452-mojl8mrtp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\"><strong>RESPONSABLES DEL PROYECTO </strong></h4>\n<p><strong></strong><br /></p>\n<p><strong>Joselin Granda  </strong><img src=\"{{context_path}}/content/resources/c.png\" /></p>\n<p> <strong>Pablo Montaño   </strong><img src=\"{{context_path}}/content/resources/m.png\" /></p>\n<p> <strong>Anahi Ruiz         <img src=\"{{context_path}}/content/resources/e.png\" /></strong></p>\n<p> <strong>Anthony Cuenca <img src=\"{{context_path}}/content/resources/7.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>REFERENCIAS</strong></p>\n<p> Ministerio de Educación del Ecuador. (2023). Pensamiento computacional: Guía para el docente (Nivel Media). <a href=\"https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf\">https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf</a></p>\n<p style=\"text-align: center;\"><strong>Tipo de licencia</strong></p>\n<p style=\"text-align: center;\"><strong><img src=\"{{context_path}}/content/resources/p4.png\" /></strong></p>\n<p><a href=\"exe-node:page-mpja85ag-gnh3i02c0\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a> <a href=\"exe-node:page-mpja85ai-4njdpbwca\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779426807452-mojl8mrtp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\"><strong>RESPONSABLES DEL PROYECTO </strong></h4>\n<p><strong></strong><br /></p>\n<p><strong>Joselin Granda  </strong><img src=\"{{context_path}}/content/resources/c.png\" /></p>\n<p> <strong>Pablo Montaño   </strong><img src=\"{{context_path}}/content/resources/m.png\" /></p>\n<p> <strong>Anahi Ruiz         <img src=\"{{context_path}}/content/resources/e.png\" /></strong></p>\n<p> <strong>Anthony Cuenca <img src=\"{{context_path}}/content/resources/7.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>REFERENCIAS</strong></p>\n<p> Ministerio de Educación del Ecuador. (2023). Pensamiento computacional: Guía para el docente (Nivel Media). <a href=\"https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf\">https://recursos.educacion.gob.ec/wp-content/uploads/curriculo/2_Media_pensamiento_computacional.pdf</a></p>\n<p style=\"text-align: center;\"><strong>Tipo de licencia</strong></p>\n<p style=\"text-align: center;\"><strong><img src=\"{{context_path}}/content/resources/p4.png\" /></strong></p>\n<p><a href=\"exe-node:page-mqb42pod-l1moar00f\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" /></a> <a href=\"exe-node:page-mqb42pof-u09m86qne\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1662,7 +1662,7 @@ Algoritmos</blockName>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mpja85ai-4njdpbwca</odePageId>
+  <odePageId>page-mqb42pof-u09m86qne</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Ficha_didáctica</pageName>
   <odeNavStructureOrder>11</odeNavStructureOrder>
@@ -1698,7 +1698,7 @@ Algoritmos</blockName>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mpja85ai-4njdpbwca</odePageId>
+      <odePageId>page-mqb42pof-u09m86qne</odePageId>
       <odeBlockId>block-1779427834614-poq427m0e</odeBlockId>
       <blockName>Texto</blockName>
       <iconName></iconName>
@@ -1727,7 +1727,7 @@ Algoritmos</blockName>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mpja85ai-4njdpbwca</odePageId>
+          <odePageId>page-mqb42pof-u09m86qne</odePageId>
           <odeBlockId>block-1779427834614-poq427m0e</odeBlockId>
           <odeIdeviceId>idevice-1779427834606-ajx5kaui9</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1738,7 +1738,7 @@ Algoritmos</blockName>
 <p><img src="{{context_path}}/content/resources/46.png" width="401" height="212" alt="" /></p>
 <p><a href="creditos-.html" title=""><img src="{{context_path}}/content/resources/t.png" width="200" height="109" alt="" />+</a><a href="../index.html" title=""><img src="{{context_path}}/content/resources/b.png" width="200" height="109" alt="" style="float: right;" /></a></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779427834606-ajx5kaui9","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\"><strong>Ficha didáctica</strong><br /></h4>\n<p><img src=\"{{context_path}}/content/resources/6.png\" width=\"403\" height=\"534\" alt=\"\" /></p>\n<p><img src=\"{{context_path}}/content/resources/Ca.png\" width=\"403\" height=\"529\" alt=\"\" /></p>\n<p><img src=\"{{context_path}}/content/resources/46.png\" width=\"401\" height=\"212\" alt=\"\" /></p>\n<p><a href=\"exe-node:page-mpja85ah-mvo4zdkst\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" />+</a><a href=\"exe-node:page-mpja859v-wq1lliozv\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779427834606-ajx5kaui9","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4 style=\"text-align: center;\"><strong>Ficha didáctica</strong><br /></h4>\n<p><img src=\"{{context_path}}/content/resources/6.png\" width=\"403\" height=\"534\" alt=\"\" /></p>\n<p><img src=\"{{context_path}}/content/resources/Ca.png\" width=\"403\" height=\"529\" alt=\"\" /></p>\n<p><img src=\"{{context_path}}/content/resources/46.png\" width=\"401\" height=\"212\" alt=\"\" /></p>\n<p><a href=\"exe-node:page-mqb42poe-98ds9buuk\" title=\"\"><img src=\"{{context_path}}/content/resources/t.png\" width=\"200\" height=\"109\" alt=\"\" />+</a><a href=\"exe-node:page-mqb42pnw-nnbhvq1ak\" title=\"\"><img src=\"{{context_path}}/content/resources/b.png\" width=\"200\" height=\"109\" alt=\"\" style=\"float: right;\" /></a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1753,6 +1753,68 @@ Algoritmos</blockName>
               <key>cssClass</key>
               <value></value>
             </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1781279995340-60i9ax44i</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Diseño_desarrollo_evaluación</pageName>
+  <odeNavStructureOrder>17</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Diseño_desarrollo_evaluación</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1781279995340-60i9ax44i</odePageId>
+      <odeBlockId>block-1781280000859-akh41rtgb</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1781279995340-60i9ax44i</odePageId>
+          <odeBlockId>block-1781280000859-akh41rtgb</odeBlockId>
+          <odeIdeviceId>idevice-1781280000852-7gv0j4er7</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><embed width="600" height="300" src="{{context_path}}/content/resources/dn.pdf" type="application/pdf"></embed></p>
+<p><embed width="600" height="300" src="{{context_path}}/content/resources/tv.pdf" type="application/pdf"></embed></p>
+<p><embed width="600" height="300" src="{{context_path}}/content/resources/d.pdf" type="application/pdf"></embed></p>
+<p><embed width="600" height="300" src="{{context_path}}/content/resources/atb.pdf" type="application/pdf"></embed></p>
+<p></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1781280000852-7gv0j4er7","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/dn.pdf\" type=\"application/pdf\"></embed></p>\n<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/tv.pdf\" type=\"application/pdf\"></embed></p>\n<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/d.pdf\" type=\"application/pdf\"></embed></p>\n<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/atb.pdf\" type=\"application/pdf\"></embed></p>\n<p></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
